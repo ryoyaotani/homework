@@ -1,0 +1,320 @@
+header{
+    height: 100vh;
+    background-image: url(../img/mainvisual\ 0126.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+header img{
+    max-width: 100%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.magazine{
+    text-align: center;
+    max-width: 1200px;
+    margin-bottom: 80px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.magazine h1{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.magazine p{
+    font-size: 0.8rem;
+}
+
+.archve-new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.magazine-item{
+    width: 49%;
+    position: relative;
+}
+
+.magazine-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.magazine-item:hover{
+    opacity: 0.7;
+}
+
+.magazine-item img{
+    max-width: 100%;
+}
+
+.magazine-text{
+    font-weight: bold;
+    max-width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4% 0;
+}
+
+.magazine-text h2{
+    font-size: 1.25rem;
+    margin-bottom: 2%;
+}
+
+.magazine-text p{
+    font-size: 0.8rem;
+}
+
+.fashion{
+    height: 66vh;
+    background-image: url(../img/fashion0126.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fashion h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.fashion p{
+    font-size: 0.8rem;
+}
+
+.fashion a{
+    display: inline-block;
+    color: black;
+    border: solid 1px black;
+    padding: 14px 36px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.fashion a:hover{
+    opacity: 0.7;
+}
+
+.catalog{
+    background-color: #f5f5f5; 
+}
+
+
+.catalog-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.catalog img{
+    width: 48%;
+    margin: 0 auto;
+}
+
+.catalog-text{
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-text h1{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.catalog-text p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.catalog-text a{
+    color: black;
+    border: solid 1px black;
+    padding: 14px 36px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.catalog-text a:hover{
+    opacity: 0.7;
+}
+
+.antique{
+    background-color: #f5f5f5; 
+}
+
+
+.antique-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.antique img{
+    width: 48%;
+    margin: 0 auto;
+}
+
+.antique-text{
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.antique-text h1{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.antique-text p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.antique-text a{
+    color: black;
+    border: solid 1px black;
+    padding: 14px 36px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.antique-text a:hover{
+    opacity: 0.7;
+}
+
+.mag88{
+    background-color:#333;
+}
+
+.mag88-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.5% 7%;
+    
+}
+.mag88-text{
+    text-align: left;
+    color: white;
+    width: 33%;
+    line-height: 2;
+}
+
+.mag88-text h2{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mag88-text a:hover{
+opacity: 0.7;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.8rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 780px) {
+    .archve-new{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } 
+
+    .magazine-item{
+        margin-bottom: 20px; 
+        position: relative;   
+    }
+
+    .magazine-text{
+        line-height: 1.5;
+        position: absolute;
+        top: 100px;
+    }
+
+    .fashion{
+        line-height: 1.5;
+        padding-top: 4%;
+    }
+    
+    .catalog-main{
+        display: flex;
+        flex-direction: column-reverse;
+        line-height: 1.3;
+    }
+
+    .antique-main{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.3;
+    }
+
+    .antique-text a{
+        margin: 20px 0 40px;
+    }
+
+    .mag88-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 7% 0 3%;
+        /* align-items: flex-start; */
+    }
+
+    .mag88-text{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    /* .mag88-text a{
+        display: block;
+        margin-top: 135px; */
+    }
