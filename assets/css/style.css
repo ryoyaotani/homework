@@ -58,7 +58,7 @@ header img{
 
 .magazine-text{
     font-weight: bold;
-    max-width: 40%;
+    width: 40%;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 40%;
@@ -271,7 +271,12 @@ footer a:hover{
 
     .magazine-item{
         margin-bottom: 20px; 
-        position: relative;   
+        position: relative; 
+        width: 60%;  
+    }
+
+    .magazine-item a{
+        display: block;
     }
 
     .magazine-text{
